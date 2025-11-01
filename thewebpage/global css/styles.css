@@ -1,0 +1,167 @@
+body {
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+
+  text-align: center;
+
+  margin: 0;
+
+  padding: 20px;
+  background-color: rgb(0, 0, 42);
+}
+
+nav {
+  border: 10px;
+  border: width 10px;
+  ;
+  border-style: groove;
+  border-color: rgb(1, 82, 93);
+  text-align: center;
+}
+
+a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+}
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+h1 {
+  color: purple;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+h3 {
+  color: purple;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+ul {
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: justify;
+}
+
+.densetext {
+  border-radius: 2px;
+  border-style: solid;
+
+  h1 {
+    color: white;
+    font-size: large;
+    text-align: right;
+    font-family: monospace;
+  }
+
+  p {
+    color: white;
+    font-size: medium;
+    text-align: justify;
+    font-family: monospace;
+  }
+}
+
+.cv {
+  color:purple table {}
+
+  tr:hover {
+    background-color: #000000;
+  }
+
+  td {
+    color: white;
+    font-size: x-large;
+    font-family: monospace;
+    text-align: justify;
+    border-bottom: 1px solid #fff;
+  }
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.longtext{
+  p{
+    text-align: right;
+    font-family: monospace;
+  }
+}
+.news {
+  h2 {
+    text-align: right;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+  }
+  ul{  margin:10px;
+    padding: 10px;
+    list-style-type: none;}
+  h1 {
+    text-align: left;
+    color: #fff;
+    font-weight: bolder;
+    font-size: xx-large;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+  }
+
+  p {
+    text-align: right;
+    color: purple;
+    font-size: medium;
+
+    font-family: monospace;
+  }
+  a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+}
+
+.image{
+  width: 25%;
+  height: auto;
+}
+footer{
+  font-size: small;
+  color: dodgerblue;
+  font-family: 'Times New Roman', Times, serif;
+  a:link {
+  color: dodgerblue;
+}
+
+a:visited {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+}

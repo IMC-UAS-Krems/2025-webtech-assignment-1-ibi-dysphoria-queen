@@ -1,0 +1,133 @@
+/* Reset and Basic Styling */
+
+body {
+    
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 20px;
+
+    background-color: #3f3e3e;
+
+}
+
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+/* Gallery Container */
+
+.gallery {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items:unset ;
+
+    gap: 10px;
+
+    max-width: 80%;
+
+    margin: auto;
+
+}
+
+/* Gallery Items */
+
+.gallery-item {
+
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.gallery-item img {
+    transition: transform .2s;
+    /* Animation */
+    width: max-content;
+
+    height: auto;
+
+    display: block;
+
+}
+
+/* Responsive Design */
+
+@media (max-width: 1080px) {
+
+    .gallery {
+
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    }
+
+}
+
+.gallery-item:hover {
+
+    transform: scale(1.75);
+
+}
+
+img {
+
+    max-width: 200%;
+    height: auto;
+    max-height: 200%;
+
+    display: block;
+
+}
+
+
+.gallery-item img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: scale-down;
+
+}
+
+.flat{
+    column-span: 2;
+}
+footer{
+  font-size: small;
+  color: dodgerblue;
+  font-family: 'Times New Roman', Times, serif;
+  a:link {
+  color: dodgerblue;
+}
+
+a:visited {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+}
